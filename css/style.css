@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Lobster;
+    font-size: 350%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lobster', 'cursive';
+    padding: 20px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center; 
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#img-div {  
+    margin: 10px;
+    margin-top: 20px;
+    
+    border: 5px solid white; 
+}
+
+img-caption {
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    background-color: #ccc;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+    /*Flex */
+    display: flex;
+    /*Shorhand flex-flow: <flex-direction> <flex-wrap>*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body {
+    background: url(../img/background.jpg);
+    /*background-color: #e9e9e9;*/
+}
+
+header {
+    background-color: #780C02;
+    color: #fff;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+
+    /*Flex*/
+    /*display: flex;
+    flex-flow: row wrap;
+    justify-content: center;*/
+}
+
+main article p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.discografy-info {
+    background-color: #C42617;
+    width: 100%;
+    padding: 20px;
+
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+.discografy-info h2 {
+    display: block;
+    width: 100%;
+}
+
+.discografy-info .albums-container {
+    width: 100%;
+
+    /*Flex*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+}
+
+.discografy-info .widget {
+    margin: 10px;
+}
+
+footer {
+    background-color: #780C02;
+    color: #fff;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
