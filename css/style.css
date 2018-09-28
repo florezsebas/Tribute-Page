@@ -20,6 +20,17 @@ p {
     text-align: center; 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    font-size: 22px;
+    color: black;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -41,8 +52,8 @@ img-caption {
 
 .container {
     background-color: #ccc;
-    width: 90%;
-    max-width: 1000px;
+    width: 80%;
+    max-width: auto;
     margin: auto;
 
     /*Flex */
@@ -110,10 +121,23 @@ main article p {
     margin: 10px;
 }
 
+.more-info {
+    width: 100%;
+    padding: 20px;
+}
+
 footer {
     background-color: #780C02;
     color: #fff;
     width: 100%;
     padding: 50px;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        /*max-width: auto;
+        margin: auto;*/
+    }
 }
